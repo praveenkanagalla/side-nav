@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>side nav</title>
+</head>
+
+<body>
+    <header class="header-container">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <div class="menu">
+            <span class="menu-icon" onclick="openNav()">&#9776;</span>
+            <ul id="mySidenav" class="header-menu">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <a href="#" class="opations">Hello</a>
+                <a href="#" class="opations">About</a>
+                <a href="#" class="opations">Services</a>
+                <a href="#" class="opations">Portfolio</a>
+                <a href="#" class="opations">blog</a>
+                <a href="#" class="opations">Contant</a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <div id="mySidebar" class="left-sidebar">
+            <a href="javascript:void(0)" class="left-closebtn" onclick="leftCloseNav()">&times;</a>
+            <a href="#" class="left-sidebar-items">Menu Card</a>
+            <button class="menu-items left-sidebar-items">Biryanis &#9660;</button>
+            <div class="dropdown-container">
+                <a class="left-sidebar-item" href="#">Chicken Biryani</a>
+                <a class="left-sidebar-item" href="#">Mutton Biryani</a>
+                <a class="left-sidebar-item" href="#">Fish Biryani</a>
+            </div>
+            <button class="menu-items left-sidebar-items">Photos</button>
+            <button class="menu-items left-sidebar-items">Currys &#9660;</button>
+            <div class="dropdown-container">
+                <a class="left-sidebar-item" href="#">Veg Curry</a>
+                <a class="left-sidebar-item" href="#">Chicken Curry</a>
+                <a class="left-sidebar-item" href="#">Mutton Curry</a>
+                <a class="left-sidebar-item" href="#">Fish Curry</a>
+            </div>
+            <button class="menu-items left-sidebar-items">Rotis &#9660;</button>
+            <div class="dropdown-container">
+                <a class="left-sidebar-item" href="#">Makki Roti</a>
+                <a class="left-sidebar-item" href="#">Akki Roti</a>
+                <a class="left-sidebar-item" href="#">Thalipeeth Roti</a>
+                <a class="left-sidebar-item" href="#">Missi Roti</a>
+                <a class="left-sidebar-item" href="#">Kuttu Roti</a>
+            </div>
+        </div>
+
+        <div>
+            <button id="openLeftBtn" class="left-openbtn" onclick="leftOpenNav()">&#9776; Order Menu</button>
+        </div>
+
+        <div id="mainContent">
+            <h2>Hyderabadi Biryani</h2>
+            <p>Your trip to Hyderabad can never be complete if you miss out on this famous delicacy of the city. It is
+                undoubtedly one of the most popular types of biryani. The delicious biryani is made with basmati rice
+                and meat or chicken. There is a unique way of preparing this heritage delicacy.</p>
+            <p>What makes it stand out is the usage of saffron and coconut. This biryani is cooked in layers and that is
+                the most challenging part in its creation. Unlike other biryanis where the meat is given priority, in
+                this biryani, the cooking of the saffron mixed rice is given more importance.</p>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
