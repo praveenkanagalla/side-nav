@@ -6,16 +6,19 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 
-function leftOpenNav() {
+function leftOpenNav(x) {
     document.getElementById("mySidebar").style.width = "25%";
+    document.getElementById("mySidebar").classList.add("mystyle");
     document.getElementById("mainContent").style.marginLeft = "25%";
     document.getElementById("openLeftBtn").style.display = "none";
 }
 
 function leftCloseNav() {
     document.getElementById("mySidebar").style.width = "0";
+    document.getElementById("mySidebar").classList.remove("mystyle");
     document.getElementById("mainContent").style.marginLeft = "0";
     document.getElementById("openLeftBtn").style.display = "block";
+    
 }
 
 var dropdown = document.getElementsByClassName("menu-items");
