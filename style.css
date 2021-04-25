@@ -116,6 +116,7 @@
 #mainContent {
     transition: margin-left .5s;
     padding: 16px;
+    margin-left: 25%;
 }
 
 .menu-items {
@@ -201,8 +202,12 @@
         width: 50% !important;
     }
 
-    .main-content {
+    .maincontent {
         margin-left: 0 !important;
+    }
+
+    #mainContent {
+        margin-left: 0;
     }
 
 }
@@ -265,7 +270,11 @@
         width: 100% !important;
     }
 
-    .main-content {
+    .maincontent {
         margin-left: 0 !important;
+    }
+
+    #mainContent {
+        margin-left: 0;
     }
 }
