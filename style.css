@@ -106,6 +106,7 @@
     border: none;
     float:left;
     margin-top: 15px;
+    width: 25%;
 }
 
 .left-openbtn:hover {
@@ -114,8 +115,7 @@
 
 #mainContent {
     transition: margin-left .5s;
-     padding: 16px;
-     display: flow-root;
+    padding: 16px;
 }
 
 .menu-items {
@@ -189,7 +189,22 @@
         right: 25px;
         font-size: 36px;
         margin-left: 50px;
-      }
+    }
+
+    .left-openbtn {
+        float: none;
+        margin-left: 15px;
+        width: auto;
+    }
+
+    .mystyle {
+        width: 50% !important;
+    }
+
+    .main-content {
+        margin-left: 0 !important;
+    }
+
 }
 
 @media screen and (max-width:767px) {
@@ -210,6 +225,7 @@
     .left-openbtn {
         float: none;
         margin-left: 15px;
+        width: auto;
     }
 
     .opations {
@@ -247,5 +263,9 @@
 
     .mystyle {
         width: 100% !important;
+    }
+
+    .main-content {
+        margin-left: 0 !important;
     }
 }

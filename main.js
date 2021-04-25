@@ -10,6 +10,7 @@ function leftOpenNav(x) {
     document.getElementById("mySidebar").style.width = "25%";
     document.getElementById("mySidebar").classList.add("mystyle");
     document.getElementById("mainContent").style.marginLeft = "25%";
+    document.getElementById("mainContent").classList.add("main-content");
     document.getElementById("openLeftBtn").style.display = "none";
 }
 
@@ -17,6 +18,7 @@ function leftCloseNav() {
     document.getElementById("mySidebar").style.width = "0";
     document.getElementById("mySidebar").classList.remove("mystyle");
     document.getElementById("mainContent").style.marginLeft = "0";
+    // document.getElementById("mainContent").classList.add = ("main-content");
     document.getElementById("openLeftBtn").style.display = "block";
     
 }
